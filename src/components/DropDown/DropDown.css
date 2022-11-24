@@ -1,0 +1,38 @@
+.BotonOpciones{
+	width: 100px;
+	height: 40px;
+	margin: 12px;
+	align-items: center;
+	border-color: rgba(0,0,0,0);
+	border-radius: 100px;
+	box-shadow: inset 0px -2px 5px 0 rgba(0, 0, 0, 0.5), inset 0px 2px 5px 0 rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.2);
+}
+.Inner{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.OpcionDesplegable{
+	width: 110px;
+	height: 50px;
+	margin: 12px;
+	align-items: center;
+	border-color: rgba(0,0,0,0);
+	border-radius: 100px;
+	box-shadow: inset 0px -2px 5px 0 rgba(0, 0, 0, 0.5), inset 0px 2px 5px 0 rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.2);
+}
+.dropdown-item{
+	text-align: center;
+	align-content: center;
+}
+.BotonOpciones:hover{
+	background-color: #85F4FF;
+}
+.dropdown-item:hover{
+	align-content: center;
+	border-radius: 100px;
+	background-color: rgba(0,0,0,0.5) ;
+}
+

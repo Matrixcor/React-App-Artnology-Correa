@@ -1,0 +1,12 @@
+.contenedorLogo{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.barraLogo{
+    width: 50px;
+    height: 40px;
+}
+.barraTitulo{
+    justify-content: center;
+}

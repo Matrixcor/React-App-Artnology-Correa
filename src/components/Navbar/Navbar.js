@@ -1,15 +1,27 @@
-const Navbar = ()=>{
+import Button from "../Button/Button";
+import CartWidget from "../CartWidget/CartWidget";
+import LogoEmpresa from "../LogoEmpresa/LogoEmpresa";
+import DropDown from "../DropDown/DropDown";
+
+
+const Navbar = (props)=>{
+console.log(props)
 
     return (
+
         <div className="barraNavegacion">
-            <h1 className="barraTitulo"> Artnology</h1>
+            
+            <LogoEmpresa/>
+
             <div className="barraOpciones">
-                <button className="opciones"> Inicio </button>
-                <button className="opciones"> Articulos </button>
-                <button className="opciones"> Ingreso </button>
+                <DropDown text="Acerca de Nosotros"> Inicio </DropDown>
+                <DropDown text="Noteboooks"> Articulos </DropDown>
+                <Button> Ingreso</Button>
             </div>
+            
+            <CartWidget/>
+
         </div>
-        
     )
 }
 export default Navbar;
