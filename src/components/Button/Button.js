@@ -1,7 +1,7 @@
-const Button = (props)=>{
+const Button = ({text})=>{
 
     return(
-        <button className="boton">{props.children}</button>
+        <button className="boton">{text}</button>
     )
 
 }

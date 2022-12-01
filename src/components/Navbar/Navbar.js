@@ -5,7 +5,7 @@ import DropDown from "../DropDown/DropDown";
 
 
 const Navbar = (props)=>{
-console.log(props)
+console.log()
 
     return (
 
@@ -16,7 +16,7 @@ console.log(props)
             <div className="barraOpciones">
                 <DropDown text="Acerca de Nosotros"> Inicio </DropDown>
                 <DropDown text="Noteboooks"> Articulos </DropDown>
-                <Button> Ingreso</Button>
+                <Button text="Ingreso"></Button>
             </div>
             
             <CartWidget/>

@@ -3,7 +3,7 @@ const DropDown = (props)=>{
     return(
         
         <div className="nav-item dropdown-center BotonOpciones">
-            <a class="nav-link dropdown-toggle Inner" role="button" data-bs-toggle="dropdown" data-bs-offset="0,30" aria-expanded="false">
+            <a className="nav-link dropdown-toggle Inner" role="button" data-bs-toggle="dropdown" data-bs-offset="0,30" aria-expanded="false">
             {props.children}
             </a>
             <ul className="dropdown-menu OpcionDesplegable">

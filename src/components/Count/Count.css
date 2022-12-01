@@ -1,0 +1,16 @@
+
+.Contador{
+    display: flex;
+    justify-content: space-between;
+}
+.ContadorValor{
+    width: 20px;
+    margin: auto;
+    background-color: antiquewhite;
+    
+}
+.Boton{
+    margin: 5px;
+    border-radius: 100px;
+    padding: 2px 15px;
+}
