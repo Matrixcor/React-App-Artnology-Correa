@@ -10,6 +10,7 @@ const Count = ({initial, stock, onAdd})=>{
     const decrement = ()=>{
         count > 0 ? setCount(count - 1) : setCount(0)
     }
+    
     return(
         <div className='Contador'>
             <button className='Boton' onClick={ ()=> increment()}> + </button>

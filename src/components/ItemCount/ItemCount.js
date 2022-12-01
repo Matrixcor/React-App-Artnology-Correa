@@ -2,7 +2,9 @@ import Count from "../Count/Count"
 const ItemCount = ()=>{
 
     const ManejaOnAdd = (quantity)=>{
-        console.log("Se agrego al carrito " + quantity)
+        if(quantity > 0){
+            console.log("Se agrego al carrito " + quantity)
+        }
     }
     return(
 
