@@ -14,8 +14,8 @@ console.log()
             <LogoEmpresa/>
 
             <div className="barraOpciones">
-                <DropDown text="Acerca de Nosotros"> Inicio </DropDown>
-                <DropDown text="Noteboooks"> Articulos </DropDown>
+                <Button text="Inicio"> Inicio </Button>
+                <DropDown text="Noteboooks"> Categorias </DropDown>
                 <Button text="Ingreso"></Button>
             </div>
             

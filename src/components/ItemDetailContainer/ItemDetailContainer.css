@@ -1,12 +1,10 @@
-.ContenedorItems{
+.ItemDetail{
     width: 80vw;
-    height: auto;
+    height: 65vh;
     margin: 50px auto 20px auto;
+    display: flex;
     background-color: #D1F2EB ;
-   
+
     border-radius: 20px;
     box-shadow: inset 0px -2px 5px 0 rgba(0, 0, 0, 0.5), inset 0px 2px 5px 0 rgba(255, 255, 255, 0.5); 
 } 
-.spinner{
-    margin: 50vh auto;
-}

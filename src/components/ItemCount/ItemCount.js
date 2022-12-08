@@ -1,5 +1,5 @@
 import Count from "../Count/Count"
-const ItemCount = ()=>{
+const ItemCount = ({prodId})=>{
 
     const ManejaOnAdd = (quantity)=>{
         if(quantity > 0){
@@ -9,8 +9,8 @@ const ItemCount = ()=>{
     return(
 
         <div className="ContainerCounter">
-            <p> nombre del producto</p>
-            <Count initial={0} stock={15} onAdd={ManejaOnAdd}/>
+        
+            <Count initial={0} stock={prodId.stock} onAdd={ManejaOnAdd}/>
                         
         </div>
     )

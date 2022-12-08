@@ -1,5 +1,8 @@
-
 .ContainerProduc{
-
-    display: flex;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 26% 26% 26%;
+    grid-auto-rows: 250px;
+    padding: 20px 20px 50px 20px;
+    justify-content: center;
 }

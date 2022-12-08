@@ -1,0 +1,23 @@
+.contenedorDetalles{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    margin:auto;
+    background-color:  #F4F6F6;
+    box-shadow: 0 40px 20px 3px rgba(0, 0, 0, 0.12);
+}
+.contenedorCaracteristicas{
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+    padding: 5px;
+}
+.boxPicture{
+    width: 35%;
+    height: 95%;
+    padding: 10px;
+}
+.contenedorCount{
+    margin: auto 10px ;
+}

@@ -1,9 +1,12 @@
-import ItemCount from "../ItemCount/ItemCount"
+import Items from "../Items/Items"
 
-const ItemList = ()=>{
+const ItemList = ({productos})=>{
+
     return(
-        <div className='ContainerProduc'> 
-            <ItemCount/>
+        <div className="ContainerProduc"> 
+           { productos.map( prod =>(
+                <Items key={prod.id} prod={prod}/>
+           ))}
         </div>
     )
 }
