@@ -1,4 +1,4 @@
-.contenedorDetalles{
+.contenedorCartList{
     width: 90%;
     height: 70%;
     display: flex;
@@ -13,21 +13,11 @@
     text-align: justify;
     padding: 5px;
 }
-.boxPicture{
+.imagenProducto{
     width: 35%;
     height: 95%;
     padding: 10px;
 }
-.contenedorCount{
+.contenedorRemover{
     margin: auto 10px ;
-}
-.BotonFin{
-
-    margin: 5px;
-    border-radius: 100px;
-    padding: 2px 15px;
-    font-weight: bold;
-    text-decoration: none;
-    border-style: 2px black;
-
 }

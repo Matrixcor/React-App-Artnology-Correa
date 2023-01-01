@@ -10,7 +10,6 @@ const DropDown = (props)=>{
             </a>
             <ul className="dropdown-menu OpcionDesplegable">
                 <li className="dropdown-list">
-                    <Link className="dropdown-item" to={`/`} > Ver Todo </Link>
                     <Link className="dropdown-item" to={`/Category/Notebooks`} > Notebooks </Link>
                     <Link className="dropdown-item" to={'/Category/Tablets'}> Tablets </Link>
                     <Link className="dropdown-item" to={'/Category/Laptops'}> Laptops </Link>

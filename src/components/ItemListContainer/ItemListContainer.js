@@ -1,7 +1,7 @@
 import ItemList from "../ItemList/ItemList"
 import { useState , useEffect } from "react"
-import {getProduc, getProducByCategory } from "../../asyncMock"
 import { useParams } from "react-router-dom"
+import { getProducByCategoryId } from "../../Services/Firebase/FireStore/Productos"
 
 const ContenedorArticulos = ({greeting})=>{
 
@@ -9,29 +9,18 @@ const ContenedorArticulos = ({greeting})=>{
     const [isCharge, setIsCharge]= useState(false)
     const {CategoryId} = useParams()
     const [titulo, setTitulo]=useState(greeting)
-    useEffect(()=>{
 
-        if( CategoryId){
-            setIsCharge(true)
-            getProducByCategory(CategoryId).then(response =>{
-                setProductos(response)
-                setTitulo(CategoryId)
-            }).catch( error=>{
-                console.log(error)
+    useEffect(()=>{
+        setIsCharge(true)
+        getProducByCategoryId(CategoryId)
+            .then( productos =>{
+                setProductos(productos)
+            }).catch( error =>{
+                console.log(error) //reemplazar por toastify
             }).finally(()=>{
                 setIsCharge(false)
                 setTitulo(CategoryId)
             })
-        }else{
-            setIsCharge(true)
-            getProduc().then(response =>{
-                setProductos(response)
-            }).catch( error=>{
-                console.log(error)
-            }).finally(()=>{
-                setIsCharge(false)
-            })
-        }
     },[CategoryId])
  
     if(isCharge){
@@ -44,6 +33,5 @@ const ContenedorArticulos = ({greeting})=>{
         </main>
         
     )
-
 }
 export default ContenedorArticulos

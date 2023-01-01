@@ -1,7 +1,12 @@
-
 .ContainerCounter{
+    display: flex;
+    justify-content: space-between;
     margin: auto;
     background-color: #F4F6F6;
-    
-    justify-content: center;
+}
+.Boton{
+    margin: 5px;
+    border-radius: 100px;
+    padding: 2px 15px;
+    font-weight: bold;
 }

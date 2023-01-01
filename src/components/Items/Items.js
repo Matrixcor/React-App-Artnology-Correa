@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 const Items = ({prod})=>{
+    //console.log(prod.id)
     return(
         <div className="ContenedorItem">
             <img className="boxImage" src={prod.pictureUrl}></img>
