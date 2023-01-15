@@ -1,8 +1,7 @@
 import { getDocs , getDoc , doc , collection , query , where } from "firebase/firestore"
 import { db } from "../FirebaseConfig"
 
-
-export const getProducByCategoryId = (CategoryId)=>{
+export const getDataLoggin = ()=>{
 
     return new Promise((resolve, reject) => {
         const collectionRef = CategoryId ? query (collection( db, 'productos') , where('category','==', CategoryId))  : collection( db, 'productos')
@@ -18,26 +17,4 @@ export const getProducByCategoryId = (CategoryId)=>{
                 reject(error)
             })
     })  
-}
-
-export const getProducById = (ItemId)=>{
-
-    return new Promise((resolve, reject) => {
-        const docRef = doc( db, 'productos', ItemId )
-
-        getDoc(docRef)
-        .then( response =>{
-            
-            if(response.exists()){
-                const data = response.data()
-                const itemAdaptado = {id: response.id, ...data}
-                resolve(itemAdaptado)
-            }else{
-                resolve([])
-            }
-            
-        }).catch(error =>{
-            reject(error)
-        })
-    })
 }

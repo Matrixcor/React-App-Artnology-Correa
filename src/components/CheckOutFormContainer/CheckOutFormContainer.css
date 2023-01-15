@@ -1,0 +1,9 @@
+.formulario{
+    display: block;
+    justify-content: center;
+    
+}
+.etiqueta{
+    display: block;
+    margin: 10px;
+}

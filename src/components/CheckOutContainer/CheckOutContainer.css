@@ -1,0 +1,14 @@
+.ContenedorItems{
+    margin: 20px;
+
+}
+.BotonFin{
+    width: 200px;
+    margin: 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    border-style: 2px black;
+}
+.BotonFin:hover{
+    background-color: #AED6F1;
+}

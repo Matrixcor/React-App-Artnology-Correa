@@ -11,12 +11,11 @@ const ItemCount = ({ manejaOnadd, initial, stock})=>{
     const decrement = (e)=>{
         count > 0 ? setCount(count - 1) : setCount(0)
     }
-//dar estilo al boton finalizar compra
-    return(
 
+    return(
         <div className="ContainerCounter">
             <Count count={count} increment={increment} decrement={decrement} />
-            <button className='Boton' onClick={()=>manejaOnadd(count)}> Agregar Producto</button>       
+            <button className='Boton' onClick={()=>manejaOnadd(count)}> Agregar Producto</button>
         </div>
     )
 

@@ -1,8 +1,40 @@
 .ContainerProduc{
+    width: auto;
     height: 100%;
     display: grid;
-    grid-template-columns: 26% 26% 26%;
+    grid-template-columns: 300px 300px 300px;
     grid-auto-rows: 250px;
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 20px 20px;
     justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .ContainerProduc{
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-auto-rows: 250px;
+        padding: 20px 20px 50px 20px;
+        justify-content: center;
+    }
+}  
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .ContainerProduc{
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-auto-rows: 250px;
+        padding: 20px 20px 50px 20px;
+        justify-content: center;
+    } 
+}
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    .ContainerProduc{
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto ;
+        grid-auto-rows: 250px;
+        padding: 20px 20px 50px 20px;
+        justify-content: center;
+    } 
 }

@@ -16,7 +16,7 @@ const ContenedorArticulos = ({greeting})=>{
             .then( productos =>{
                 setProductos(productos)
             }).catch( error =>{
-                console.log(error) //reemplazar por toastify
+                console.log(error)
             }).finally(()=>{
                 setIsCharge(false)
                 setTitulo(CategoryId)

@@ -1,5 +1,29 @@
-
-.Cont{
-    display: block;
-    background-color: blue;
+.ContenedorCart{
+    width: 80vw;
+    height: auto;
+    margin: 50px auto 20px auto;
+    padding: 20px;
+    background-color: #D1F2EB ;
+    border-radius: 20px;
+    box-shadow: inset 0px -2px 5px 0 rgba(0, 0, 0, 0.5), inset 0px 2px 5px 0 rgba(255, 255, 255, 0.5); 
+}
+.ContenedorCartList{
+    display:block;
+    margin: 10px;
+}
+.BotonFin{
+    width: 200px;
+    margin: 5px;
+    border-radius: 100px;
+    text-decoration: none;
+    border-style: 2px black;
+}
+.BotonFin:hover{
+    background-color: #AED6F1;
+}
+.hide{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
 }

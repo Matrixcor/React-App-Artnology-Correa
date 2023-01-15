@@ -1,14 +1,8 @@
-
+import CartItem from "../CartItem/CartItem"
 const CheckOutList = ({prod})=>{
 
     return(
-        <div className="contenedorCartList">
-            <img className="imagenProducto" src={prod.pictureUrl}></img>
-            <div className="contenedorCaracteristicas">
-                <h2>{prod.title}</h2>
-                <p> Cantidad: {prod.count} </p>
-            </div>
-        </div>
+        <CartItem cssprop={"containerCheckoutList"} prod={prod}/>
     )
 }
 export default CheckOutList

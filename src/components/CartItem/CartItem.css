@@ -1,0 +1,26 @@
+.contenedorCartItem{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    margin:auto;
+    background-color:  #F4F6F6;   
+     
+}
+.imagenProducto{
+    width: 175px;
+    height: 150px;
+    padding: 10px;
+}
+.contenedorRemover{
+    margin: auto 10px ;
+}
+.containerCheckoutList{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    margin:auto;
+    background-color:  #F4F6F6;   
+    border-bottom: 2px solid black;
+}

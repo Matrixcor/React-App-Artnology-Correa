@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# ArtNology
+***
+ARTNOLOGY es una aplicacion E-commerce implementada en REACT-JS, en el cual el cliente podra navegar en busca de productos y luego realizar la compra a través de una navegación intuitiva.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Asimismo, de acuerdo a la tematica elegida para el E-commerce, encontras productos relacionados a la creacion y modificacion del arte a través de elementos tecnologicos.
 
-## Available Scripts
+Por ello, la interfaz grafica emula las transparencias de fondo y hace uso del sombreado de los articulos al poner el puntero del mouse encima del producto.
 
-In the project directory, you can run:
+Por ultimo, la presentacion, navegacion y botones para interactuar con el usuario, esta dispuesto de una manera que le resulte sencillo al usuario realizar: la seleccion de productos, la compra y recibir un comprobante con el numero de Compra.
+## Librerias
+***
+Listado de librerias utilizadas en este proyecto:
+* [React](https://es.reactjs.org/): Version 1.16.1 
+* [React-router-dom](https://reactrouter.com/en/main): Version 6.4.4
+* [React-scripts](https://www.npmjs.com/package/react-scripts): Version 5.0.1 
+* [Bootstrap](https://www.npmjs.com/package/react-bootstrap): Version 5.2.3 
+* [Firebase](https://firebase.google.com/): Version 9.15.0
+* [Toastify](https://www.npmjs.com/package/react-toastify): Version 9.1.1
+* [Markdown](https://www.npmjs.com/package/react-markdown): Version 13.0.1
 
-### `npm start`
+ToastiFy: 
+Se utilizo esta libreria para poder ejecutar mensajes personalizados al modificar los items contenidos en el carrito de compras. Por otro lado, se elijio a Toastify por la experiencia al haber trabajado anteriormente con la misma libreria en proyectos de Javascript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React Markdown:
+Se utilizo este editor para crear el markDown del proyecto, ya que es sencillo de utilizar. Ademas, como la premisa es mantener la simplicidad del sitio y de las instrucciones, solo hacía falta incorporar texto plano, sin agregados gráficos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Futuro
+***
+En versiones posteriores, es necesario incorporar una seccion de autenticacion o login, en el cual podría optarse por ingresar si es que el usuario ya esta registrado, o registrarse en el sitio para facilitar la parte de compras.
+***
+El proyecto queda abierto a colaboraciones, correcciones, aportes, debate. 
+***
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
